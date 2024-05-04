@@ -31,6 +31,7 @@ function App() {
     });
   }
 
+
   return (
     <div>
       <img src={image} alt="Logo" />
@@ -43,7 +44,7 @@ function App() {
           </div>
           <div className='input-box'>
             <label htmlFor="password"/>
-            <input value={password} onChange={handlePassword} type='password' id="password" placeholder='Password' required />
+            <input defaultValue={password} onChange={handlePassword} type='password' id="password" placeholder='Password' required />
           </div>
           <div className='remember'>
             <label><input type="checkbox" /> Remember me</label>
