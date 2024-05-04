@@ -28,6 +28,7 @@ function App() {
     .catch(error => {
       console.error(error); // Log error for debugging
       // Display error to the user
+
     });
   }
 
